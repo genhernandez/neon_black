@@ -1,0 +1,65 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+.row {
+  min-height: 50vh;
+}
+
+.merch {
+  background-color: #F28705;
+}
+
+.merch:hover{
+  opacity: 0.6;
+}
+
+.bio {
+  background-color: #FFDe17;
+}
+
+.bio-text{
+  visibility: hidden;
+}
+
+.bio:hover{
+  opacity: 0.6
+}
+
+.bio:hover p{
+  visibility: visible;
+}
+
+.videos {
+  background-color: #5DA649;
+}
+
+.videos:hover {
+  opacity: 0.6
+}
+
+.shows {
+  background-color: #138AF2;
+}
+
+.shows:hover {
+  opacity: 0.6;
+}
+
+.music {
+  background-color: #6f0083;
+}
+
+.music:hover{
+  opacity: 0.6;
+}
+
+.contact {
+  background-color: #f20f22;
+}
+
+.contact:hover{
+  opacity: 0.6;
+}
+
