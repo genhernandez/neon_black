@@ -2,6 +2,7 @@ body {
   font-family: Helvetica, sans-serif;
   font-weight: 100;
   font-size: 16px;
+  color: white;
 }
 
 .row {
@@ -27,6 +28,14 @@ body {
   background-color:#0A0A08;
 }
 
+.merch-text {
+  visibility: hidden;
+}
+
+.merch:hover p{
+  visibility: visible;
+}
+
 /* bio */
 .bio {
   background-color: #FFff14;
@@ -35,7 +44,6 @@ body {
 .bio-text{
   margin-top: 2.0em;
   visibility: hidden;
-  color: white;
   font-size: 0.8em;
 }
 
@@ -66,6 +74,23 @@ body {
   background-color: #0A0A08;
 }
 
+iframe {
+  margin-top: 1.5em;
+  visibility: hidden;
+}
+
+.video-title {
+  margin-top: 0.5em;
+  visibility: hidden;
+}
+
+.videos:hover h1 {
+  visibility: visible;
+}
+
+.videos:hover iframe {
+  visibility: visible;
+}
 /* shows */
 .shows {
   background-color: #04d1e1;
@@ -73,6 +98,14 @@ body {
 
 .shows:hover {
   background-color: #0a0a08;
+}
+
+.shows-text {
+  visibility: hidden;
+}
+
+.shows:hover p {
+  visibility: visible;
 }
 
 /* music */
@@ -84,12 +117,40 @@ body {
   background-color: #0a0a08;
 }
 
+.music-text {
+  visibility: hidden;
+}
+
+.music:hover p {
+  visibility: visible;
+}
+
 /* contact */
 .contact {
   background-color: #dd0048;
 }
 
+.contact-content {
+  visibility: hidden;
+}
+.social-media-logo {
+  width: 15%;
+  margin-top: 1.2em;
+}
+
+.logo-container{
+  display: flex;
+  flex-direction: column;
+}
+.contact-text {
+  margin-top: 1.0em;
+}
+
 .contact:hover{
   background-color: #0a0a08;
+}
+
+.contact:hover div {
+  visibility: visible;
 }
 
