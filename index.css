@@ -1,65 +1,85 @@
 body {
   font-family: Helvetica, sans-serif;
   font-weight: 100;
+  font-size: 16px;
 }
 
 .row {
   min-height: 50vh;
 }
 
+/* merch */
 .merch {
-  background-color: #F28705;
+  background-color: #FD5F00;
 }
 
 .merch:hover{
-  opacity: 0.6;
+  background-color:#0A0A08;
 }
 
+/* bio */
 .bio {
-  background-color: #FFDe17;
+  background-color: #FFff14;
 }
 
 .bio-text{
+  margin-top: 2.0em;
   visibility: hidden;
+  color: white;
+  font-size: 0.8em;
 }
 
+.bio-pic{
+  visibility: hidden;
+  width: 50%;
+  height: 50%;
+  margin-bottom: 0.5em;
+}
 .bio:hover{
-  opacity: 0.6
+  background-color: #0A0A08;
 }
 
 .bio:hover p{
   visibility: visible;
 }
 
+.bio:hover img{
+  visibility: visible;
+}
+
+/* videos */
 .videos {
-  background-color: #5DA649;
+  background-color: #1cf909;
 }
 
 .videos:hover {
-  opacity: 0.6
+  background-color: #0A0A08;
 }
 
+/* shows */
 .shows {
-  background-color: #138AF2;
+  background-color: #04d1e1;
 }
 
 .shows:hover {
-  opacity: 0.6;
+  background-color: #0a0a08;
 }
 
+/* music */
 .music {
-  background-color: #6f0083;
+  background-color: #c20ed5;
 }
 
 .music:hover{
-  opacity: 0.6;
+  background-color: #0a0a08;
 }
 
+/* contact */
 .contact {
-  background-color: #f20f22;
+  background-color: #dd0048;
 }
 
 .contact:hover{
-  opacity: 0.6;
+  background-color: #0a0a08;
 }
 
