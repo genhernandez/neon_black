@@ -8,6 +8,16 @@ body {
   min-height: 50vh;
 }
 
+/* logo */
+.logo {
+  position: fixed;
+  z-index: 1;
+  width: 50%;
+  top: 10%;
+  left: 25%;
+  border: solid 1px black;
+}
+
 /* merch */
 .merch {
   background-color: #FD5F00;
