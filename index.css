@@ -14,9 +14,8 @@ body {
   position: fixed;
   z-index: 1;
   width: 50%;
-  top: 10%;
+  top: 35%;
   left: 25%;
-  border: solid 1px black;
 }
 
 /* merch */
@@ -132,6 +131,11 @@ iframe {
 
 .contact-content {
   visibility: hidden;
+}
+
+.social-media {
+  display: contents;
+  width: fit-content;
 }
 .social-media-logo {
   width: 15%;
